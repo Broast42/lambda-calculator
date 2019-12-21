@@ -1,9 +1,13 @@
 import React from "react";
 import { tsPropertySignature } from "@babel/types";
 
+
+
 const SpecialButton = (props) => {
+
+
   return (
-    <button>
+    <button  className="special">
       {props.text}
     </button>
   );
