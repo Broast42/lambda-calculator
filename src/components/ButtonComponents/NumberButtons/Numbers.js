@@ -15,14 +15,11 @@ const Numbers = () => {
   const [nums, setNums] = useState(numbers);
   console.log(nums);
   return (
-    <div>
-      
-      {nums.map((x) => 
-         <NumberButton text={x} />
+    <div>   
+      {nums.map((x, index) => 
+         <NumberButton text={x} key={index}/>
         
       )}
-
-
     </div>
   );
 };
