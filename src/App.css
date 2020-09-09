@@ -4,7 +4,7 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 .display {
     margin-top: 25px;
@@ -19,4 +19,38 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: white;
+    font-size: 2rem;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    
+}
+
+.operators{
+    background: teal;
+}
+
+.special{
+    background: dodgerblue;
+}
+
+.numbers{
+    background: mediumblue;
+}
+
+
+
+
